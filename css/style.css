@@ -68,6 +68,11 @@ table {
       width: 10%;
       top: 9%;
       left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .top_bird_1 {
+      width: 6%;
+      top: 16%;
+      left: 1%; } }
 
 .top_star_2 {
   position: absolute;
@@ -80,6 +85,9 @@ table {
       width: 10%;
       top: 31%;
       left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .top_star_2 {
+      display: none; } }
 
 .top_bird_3 {
   position: absolute;
@@ -188,6 +196,11 @@ table {
       width: 10%;
       top: 50%;
       left: 89%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .top_11_fish {
+      width: 6%;
+      top: 40%;
+      left: 93%; } }
 
 .top_12_moon {
   position: absolute;
@@ -200,6 +213,9 @@ table {
       width: 10%;
       top: 10%;
       left: 88%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .top_12_moon {
+      display: none; } }
 
 .right_01_doll {
   position: absolute;
@@ -212,6 +228,11 @@ table {
       width: 7%;
       top: 21%;
       right: 2%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .right_01_doll {
+      width: 5%;
+      top: 18%;
+      right: 1%; } }
 
 .right_02_flower {
   position: absolute;
@@ -223,6 +244,9 @@ table {
     .right_02_flower {
       width: 8%;
       top: 36%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .right_02_flower {
+      display: none; } }
 
 .right_03_cat {
   position: absolute;
@@ -234,6 +258,11 @@ table {
     .right_03_cat {
       width: 9%;
       top: 62%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .right_03_cat {
+      width: 6%;
+      top: 53%;
+      left: 93%; } }
 
 .bottom_01_cat {
   position: absolute;
@@ -256,6 +285,9 @@ table {
       width: 8%;
       top: 83%;
       left: 2%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .bottom_02_flower {
+      display: none; } }
 
 .bottom_03_chichen {
   position: absolute;
@@ -304,6 +336,11 @@ table {
       width: 8%;
       bottom: 21%;
       left: 90%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .bottom_06_littleStar {
+      width: 5%;
+      bottom: 24%;
+      left: 94%; } }
 
 .bottom_07_moneyPig {
   position: absolute;
@@ -330,6 +367,9 @@ table {
       left: 87%;
       -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg); } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .bottom_08_flower {
+      display: none; } }
 
 .bottom_09_sleepinCat {
   position: absolute;
@@ -388,6 +428,11 @@ table {
       width: 8%;
       top: 20%;
       left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .left_01_flower {
+      width: 5%;
+      top: 29%;
+      left: 1%; } }
 
 .left_02_chicken {
   position: absolute;
@@ -399,6 +444,11 @@ table {
     .left_02_chicken {
       width: 8%;
       top: 42%;
+      left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .left_02_chicken {
+      width: 5%;
+      top: 43%;
       left: 1%; } }
 
 .left_03_beets {
@@ -412,6 +462,9 @@ table {
       width: 8%;
       top: 54%;
       left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .left_03_beets {
+      display: none; } }
 
 .left_04_lovely_lamp {
   position: absolute;
@@ -423,6 +476,11 @@ table {
     .left_04_lovely_lamp {
       width: 7%;
       top: 69%;
+      left: 1%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .left_04_lovely_lamp {
+      width: 5%;
+      top: 60%;
       left: 1%; } }
 
 .TitleLogo {
@@ -440,6 +498,19 @@ table {
     top: 0%;
     left: 0%;
     z-index: 3; }
+  @media only screen and (max-width: 1199px) {
+    .TitleLogo {
+      width: 20%;
+      top: 12%;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%); } }
+  @media only screen and (max-width: 1199px) and (min-height: 1000px) {
+    .TitleLogo {
+      width: 40%;
+      top: 10%;
+      left: 50%; } }
   @media only screen and (max-width: 991px) {
     .TitleLogo {
       width: 20%;
@@ -448,6 +519,11 @@ table {
       -webkit-transform: translate(-50%);
       -ms-transform: translate(-50%);
       transform: translate(-50%); } }
+  @media only screen and (max-width: 991px) and (min-height: 1000px) {
+    .TitleLogo {
+      width: 40%;
+      top: 10%;
+      left: 50%; } }
   @media only screen and (max-width: 767px) {
     .TitleLogo {
       width: 32%;
@@ -456,6 +532,10 @@ table {
       -webkit-transform: translate(-50%);
       -ms-transform: translate(-50%);
       transform: translate(-50%); } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .TitleLogo {
+      width: 16%;
+      top: 15%; } }
   @media only screen and (max-width: 575px) {
     .TitleLogo {
       width: 40%;
@@ -464,6 +544,10 @@ table {
       -webkit-transform: translate(-50%);
       -ms-transform: translate(-50%);
       transform: translate(-50%); } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .TitleLogo {
+      width: 15%;
+      top: 15%; } }
 
 .first_full {
   position: absolute;
@@ -474,19 +558,39 @@ table {
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
   transform: translate(-50%); }
+  @media only screen and (max-width: 1199px) {
+    .first_full {
+      width: 58%;
+      top: 42%;
+      left: 50%; } }
+  @media only screen and (max-width: 1199px) and (min-height: 1000px) {
+    .first_full {
+      width: 75%;
+      top: 42%;
+      left: 50%; } }
   @media only screen and (max-width: 991px) {
     .first_full {
       width: 58%;
       top: 42%;
       left: 50%; } }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 991px) and (min-height: 1000px) {
     .first_full {
-      width: 76%;
-      top: 39%;
+      width: 75%;
+      top: 42%;
       left: 50%; } }
   @media only screen and (max-width: 767px) {
     .first_full {
       display: none; } }
+  @media only screen and (max-width: 767px) and (max-height: 380px) {
+    .first_full {
+      display: block;
+      width: 59%;
+      top: 43%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .first_full {
+      display: block;
+      width: 59%;
+      top: 43%; } }
 
 .frstbrandPartOne {
   display: none;
@@ -504,6 +608,9 @@ table {
       left: 50%;
       width: 66%;
       top: 43%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .frstbrandPartOne {
+      display: none; } }
 
 .frstbrandPartTwo {
   display: none;
@@ -521,6 +628,9 @@ table {
       left: 48%;
       width: 64%;
       top: 54%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .frstbrandPartTwo {
+      display: none; } }
 
 .textile_full {
   position: absolute;
@@ -531,13 +641,37 @@ table {
   -ms-transform: translate(-50%);
   transform: translate(-50%);
   z-index: 2; }
+  @media only screen and (max-width: 1199px) {
+    .textile_full {
+      width: 53%;
+      top: 52%; } }
+  @media only screen and (max-width: 1199px) and (min-height: 1000px) {
+    .textile_full {
+      width: 75%;
+      top: 52%;
+      left: 50%; } }
   @media only screen and (max-width: 991px) {
     .textile_full {
       width: 53%;
       top: 52%; } }
+  @media only screen and (max-width: 991px) and (min-height: 1000px) {
+    .textile_full {
+      width: 75%;
+      top: 52%;
+      left: 50%; } }
   @media only screen and (max-width: 767px) {
     .textile_full {
       display: none; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .textile_full {
+      display: block;
+      width: 53%;
+      top: 54%; } }
+  @media only screen and (max-width: 767px) and (max-height: 380px) {
+    .textile_full {
+      display: block;
+      width: 53%;
+      top: 54%; } }
 
 .textileOne {
   display: none;
@@ -554,11 +688,17 @@ table {
       display: block;
       width: 59%;
       top: 47%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .textileOne {
+      display: none; } }
   @media only screen and (max-width: 575px) {
     .textileOne {
       display: block;
       width: 59%;
       top: 62%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .textileOne {
+      display: none; } }
 
 .textileTwo {
   display: none;
@@ -575,11 +715,17 @@ table {
       display: block;
       width: 38%;
       top: 54%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .textileTwo {
+      display: none; } }
   @media only screen and (max-width: 575px) {
     .textileTwo {
       display: block;
       width: 38%;
       top: 69%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .textileTwo {
+      display: none; } }
 
 .soon {
   position: absolute;
@@ -590,18 +736,40 @@ table {
   -ms-transform: translate(-50%);
   transform: translate(-50%);
   z-index: 2; }
+  @media only screen and (max-width: 1199px) {
+    .soon {
+      width: 39%;
+      top: 61%; } }
+  @media only screen and (max-width: 1199px) and (min-height: 1000px) {
+    .soon {
+      width: 65%;
+      top: 62%;
+      left: 50%; } }
   @media only screen and (max-width: 991px) {
     .soon {
       width: 39%;
       top: 61%; } }
+  @media only screen and (max-width: 991px) and (min-height: 1000px) {
+    .soon {
+      width: 65%;
+      top: 62%;
+      left: 50%; } }
   @media only screen and (max-width: 767px) {
     .soon {
       width: 54%;
       top: 64%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .soon {
+      width: 46%;
+      top: 62%; } }
   @media only screen and (max-width: 575px) {
     .soon {
       width: 54%;
       top: 75%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .soon {
+      width: 46%;
+      top: 62%; } }
 
 .contacts {
   position: absolute;
@@ -614,16 +782,31 @@ table {
       height: 58%;
       top: 72%;
       left: 14%; } }
+  @media only screen and (max-width: 1199px) and (min-height: 1000px) {
+    .contacts {
+      height: 53%;
+      top: 75%;
+      left: 14%; } }
   @media only screen and (max-width: 767px) {
     .contacts {
       height: 55%;
       top: 75%;
       left: 12%; } }
+  @media only screen and (max-width: 767px) and (max-height: 421px) {
+    .contacts {
+      height: 66%;
+      top: 68%;
+      left: 9%; } }
   @media only screen and (max-width: 575px) {
     .contacts {
       height: 50%;
       top: 81%;
       left: 15%; } }
+  @media only screen and (max-width: 575px) and (max-height: 380px) {
+    .contacts {
+      height: 66%;
+      top: 68%;
+      left: 9%; } }
   .contacts .more {
     position: absolute;
     height: 7%;
