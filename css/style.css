@@ -622,7 +622,7 @@ table {
   @media only screen and (max-width: 575px) {
     .contacts {
       height: 50%;
-      top: 82%;
+      top: 81%;
       left: 15%; } }
   .contacts .more {
     position: absolute;
