@@ -458,7 +458,7 @@ table {
       transform: translate(-50%); } }
   @media only screen and (max-width: 575px) {
     .TitleLogo {
-      width: 48%;
+      width: 40%;
       top: 10%;
       left: 50%;
       -webkit-transform: translate(-50%);
