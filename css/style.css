@@ -1,0 +1,656 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+ .block {
+   float: left;
+   width: 250px;
+   @include respond-to(xs) { width: 100% ;}
+   @include respond-to(sm) { width: 125px; }
+   @include respond-to(md) { float: none; }
+   @include respond-to(lg) { float: none; }
+ }​ */
+.container-fluid {
+  background: #d3e1f4 url(../img/back.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden; }
+
+.top_bird_1 {
+  position: absolute;
+  width: 6%;
+  top: 4%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_bird_1 {
+      width: 10%;
+      top: 9%;
+      left: 1%; } }
+
+.top_star_2 {
+  position: absolute;
+  width: 6%;
+  top: 2%;
+  left: 9%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_star_2 {
+      width: 10%;
+      top: 31%;
+      left: 1%; } }
+
+.top_bird_3 {
+  position: absolute;
+  width: 8%;
+  top: 2.7%;
+  left: 17%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_bird_3 {
+      width: 13%;
+      top: 1%;
+      left: 1%; } }
+
+.top_04_flower {
+  position: absolute;
+  width: 4%;
+  top: 2.7%;
+  left: 27%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_04_flower {
+      width: 6.5%;
+      top: 1%;
+      left: 19%; } }
+
+.top_05_bird_with_letter {
+  position: absolute;
+  width: 7%;
+  top: 3%;
+  left: 33%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_05_bird_with_letter {
+      width: 10%;
+      top: 2%;
+      left: 30%; } }
+
+.top_06_flower {
+  position: absolute;
+  width: 6.5%;
+  top: 3%;
+  left: 41%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_06_flower {
+      width: 9.7%;
+      top: 1.5%;
+      left: 42%; } }
+
+.top_07_starcross_smile {
+  position: absolute;
+  width: 6.5%;
+  top: 2%;
+  left: 49%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_07_starcross_smile {
+      width: 10%;
+      top: 1%;
+      left: 53%; } }
+
+.top_08_bird {
+  position: absolute;
+  width: 5.3%;
+  top: 2%;
+  left: 57%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_08_bird {
+      width: 8%;
+      top: 1%;
+      left: 65%; } }
+
+.top_09_flower {
+  position: absolute;
+  width: 4%;
+  top: 2.5%;
+  left: 65%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_09_flower {
+      width: 6%;
+      top: 1%;
+      left: 76%; } }
+
+.top_10_bird_scarf {
+  position: absolute;
+  width: 8%;
+  top: 2.5%;
+  left: 71%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_10_bird_scarf {
+      width: 13%;
+      top: 1%;
+      left: 85%; } }
+
+.top_11_fish {
+  position: absolute;
+  width: 7.5%;
+  top: 1.5%;
+  left: 81%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_11_fish {
+      width: 10%;
+      top: 50%;
+      left: 89%; } }
+
+.top_12_moon {
+  position: absolute;
+  width: 7.5%;
+  top: 4.5%;
+  left: 90%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .top_12_moon {
+      width: 10%;
+      top: 10%;
+      left: 88%; } }
+
+.right_01_doll {
+  position: absolute;
+  width: 4%;
+  top: 23%;
+  right: 2%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .right_01_doll {
+      width: 7%;
+      top: 21%;
+      right: 2%; } }
+
+.right_02_flower {
+  position: absolute;
+  width: 4.7%;
+  top: 44%;
+  right: 2%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .right_02_flower {
+      width: 8%;
+      top: 36%; } }
+
+.right_03_cat {
+  position: absolute;
+  width: 6%;
+  top: 64%;
+  right: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .right_03_cat {
+      width: 9%;
+      top: 62%; } }
+
+.bottom_01_cat {
+  position: absolute;
+  width: 5%;
+  bottom: 2%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_01_cat {
+      width: 9%; } }
+
+.bottom_02_flower {
+  position: absolute;
+  width: 6%;
+  bottom: 3%;
+  left: 7%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_02_flower {
+      width: 8%;
+      top: 83%;
+      left: 2%; } }
+
+.bottom_03_chichen {
+  position: absolute;
+  width: 4%;
+  bottom: 2%;
+  left: 15%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_03_chichen {
+      width: 6%;
+      bottom: 2%;
+      left: 14%; } }
+
+.bottom_04_cat {
+  position: absolute;
+  width: 6.5%;
+  bottom: 2%;
+  left: 21%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_04_cat {
+      width: 8%;
+      bottom: 2%;
+      left: 24%; } }
+
+.bottom_05_flower {
+  position: absolute;
+  width: 5%;
+  bottom: 2%;
+  left: 30%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_05_flower {
+      width: 7%;
+      bottom: 2%;
+      left: 37%; } }
+
+.bottom_06_littleStar {
+  position: absolute;
+  width: 5%;
+  bottom: 2%;
+  left: 36%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_06_littleStar {
+      width: 8%;
+      bottom: 21%;
+      left: 90%; } }
+
+.bottom_07_moneyPig {
+  position: absolute;
+  width: 7%;
+  bottom: 2%;
+  left: 43%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_07_moneyPig {
+      width: 10%;
+      bottom: 2%;
+      left: 47%; } }
+
+.bottom_08_flower {
+  position: absolute;
+  width: 9%;
+  bottom: 2%;
+  left: 52%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_08_flower {
+      width: 13%;
+      bottom: 13%;
+      left: 87%;
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg); } }
+
+.bottom_09_sleepinCat {
+  position: absolute;
+  width: 11%;
+  bottom: 2%;
+  left: 62%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_09_sleepinCat {
+      width: 13%;
+      bottom: 2%;
+      left: 62%; } }
+
+.bottom_10_hairBrush {
+  position: absolute;
+  width: 10%;
+  bottom: 2%;
+  left: 74%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_10_hairBrush {
+      display: none; } }
+
+.bottom_11_kotZFilizanka {
+  position: absolute;
+  width: 6%;
+  bottom: 2%;
+  left: 85%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_11_kotZFilizanka {
+      width: 8%;
+      bottom: 2%;
+      left: 79%; } }
+
+.bottom_12_flower {
+  position: absolute;
+  width: 5%;
+  bottom: 2%;
+  right: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .bottom_12_flower {
+      width: 8%;
+      bottom: 1%;
+      left: 90%; } }
+
+.left_01_flower {
+  position: absolute;
+  width: 5.4%;
+  top: 19%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .left_01_flower {
+      width: 8%;
+      top: 20%;
+      left: 1%; } }
+
+.left_02_chicken {
+  position: absolute;
+  width: 4.5%;
+  top: 34%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .left_02_chicken {
+      width: 8%;
+      top: 42%;
+      left: 1%; } }
+
+.left_03_beets {
+  position: absolute;
+  width: 4%;
+  top: 49%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .left_03_beets {
+      width: 8%;
+      top: 54%;
+      left: 1%; } }
+
+.left_04_lovely_lamp {
+  position: absolute;
+  width: 4.3%;
+  top: 66%;
+  left: 1%;
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .left_04_lovely_lamp {
+      width: 7%;
+      top: 69%;
+      left: 1%; } }
+
+.TitleLogo {
+  position: absolute;
+  width: 14%;
+  top: 16%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2; }
+  .TitleLogo > img {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 3; }
+  @media only screen and (max-width: 991px) {
+    .TitleLogo {
+      width: 20%;
+      top: 12%;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%); } }
+  @media only screen and (max-width: 767px) {
+    .TitleLogo {
+      width: 32%;
+      top: 12%;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%); } }
+  @media only screen and (max-width: 575px) {
+    .TitleLogo {
+      width: 48%;
+      top: 10%;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%); } }
+
+.first_full {
+  position: absolute;
+  width: 43%;
+  top: 45%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%); }
+  @media only screen and (max-width: 991px) {
+    .first_full {
+      width: 58%;
+      top: 42%;
+      left: 50%; } }
+  @media only screen and (max-width: 767px) {
+    .first_full {
+      width: 76%;
+      top: 39%;
+      left: 50%; } }
+  @media only screen and (max-width: 767px) {
+    .first_full {
+      display: none; } }
+
+.frstbrandPartOne {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 2; }
+  @media only screen and (max-width: 575px) {
+    .frstbrandPartOne {
+      display: block;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%);
+      left: 50%;
+      width: 66%;
+      top: 43%; } }
+
+.frstbrandPartTwo {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 50%;
+  z-index: 2; }
+  @media only screen and (max-width: 575px) {
+    .frstbrandPartTwo {
+      display: block;
+      -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      transform: translate(-50%);
+      left: 48%;
+      width: 64%;
+      top: 54%; } }
+
+.textile_full {
+  position: absolute;
+  width: 38%;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2; }
+  @media only screen and (max-width: 991px) {
+    .textile_full {
+      width: 53%;
+      top: 52%; } }
+  @media only screen and (max-width: 767px) {
+    .textile_full {
+      display: none; } }
+
+.textileOne {
+  display: none;
+  position: absolute;
+  width: 38%;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .textileOne {
+      display: block;
+      width: 59%;
+      top: 47%; } }
+  @media only screen and (max-width: 575px) {
+    .textileOne {
+      display: block;
+      width: 59%;
+      top: 62%; } }
+
+.textileTwo {
+  display: none;
+  position: absolute;
+  width: 38%;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2; }
+  @media only screen and (max-width: 767px) {
+    .textileTwo {
+      display: block;
+      width: 38%;
+      top: 54%; } }
+  @media only screen and (max-width: 575px) {
+    .textileTwo {
+      display: block;
+      width: 38%;
+      top: 69%; } }
+
+.soon {
+  position: absolute;
+  width: 30%;
+  top: 64%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2; }
+  @media only screen and (max-width: 991px) {
+    .soon {
+      width: 39%;
+      top: 61%; } }
+  @media only screen and (max-width: 767px) {
+    .soon {
+      width: 54%;
+      top: 64%; } }
+  @media only screen and (max-width: 575px) {
+    .soon {
+      width: 54%;
+      top: 75%; } }
+
+.contacts {
+  position: absolute;
+  height: 60%;
+  top: 66%;
+  left: 11%;
+  z-index: 2; }
+  @media only screen and (max-width: 1199px) {
+    .contacts {
+      height: 58%;
+      top: 72%;
+      left: 14%; } }
+  @media only screen and (max-width: 767px) {
+    .contacts {
+      height: 55%;
+      top: 75%;
+      left: 12%; } }
+  @media only screen and (max-width: 575px) {
+    .contacts {
+      height: 50%;
+      top: 82%;
+      left: 15%; } }
+  .contacts .more {
+    position: absolute;
+    height: 7%;
+    top: 0%;
+    left: 0%;
+    z-index: 3; }
+  .contacts > a:first-of-type {
+    position: absolute;
+    height: 7%;
+    top: 6%;
+    left: 0%;
+    z-index: 3; }
+    .contacts > a:first-of-type > img {
+      position: absolute;
+      height: 100%;
+      top: 0%;
+      left: 0%;
+      z-index: 4; }
+  .contacts > a:last-of-type {
+    position: absolute;
+    height: 7%;
+    top: 12%;
+    left: 0%;
+    z-index: 3; }
+    .contacts > a:last-of-type > img {
+      position: absolute;
+      height: 100%;
+      top: 0%;
+      left: 0%;
+      z-index: 4; }
