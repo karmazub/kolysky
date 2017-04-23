@@ -192,7 +192,7 @@ table {
 .top_12_moon {
   position: absolute;
   width: 7.5%;
-  top: 4.5%;
+  top: 3.5%;
   left: 90%;
   z-index: 2; }
   @media only screen and (max-width: 767px) {
