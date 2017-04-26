@@ -1,2 +1,4 @@
 psd/
 scss/
+*.config
+.idea/
